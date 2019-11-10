@@ -70,7 +70,7 @@ All **pages** are kept in the root of the `src/njk/` folder. Each `.njk` file cr
 - The page `src/njk/index.njk` is the main website page that _extends_ `src/njk/_layouts/base.njk`. You are coding only the main content of the page, and inheriting all the nav and other framework from the layout.
 - The page `src/njk/detail-page.njk` _extends_ the `src/njk/_layouts/detail.njk` layout, which is already extending `base.njk`. It allows you to have a different structure for your content, yet still reuse navigation and such from the base layout.
 
-### Using data in Nunjucks templates
+### Using data in s
 
 Nunjucks has special [tags to apply logic](https://mozilla.github.io/nunjucks/templating.html#tags), like looping through data within templates.
 
